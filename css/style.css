@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;    
+    }
+    
+    
+    body{
+    background-color:rgb(122, 5, 5) ;
+    }
+    
+    .pai{
+    background-color: rgb(252, 239, 239);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 7px;
+    border: 5px solid;
+    border-color: rgb(31, 30, 30);
+    width: 210px;
+    }
+    
+    #resultado{
+    border: solid 5px;
+    text-align: right;
+    height: 40px;
+    border-color:rgb(31, 30, 30);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 25px;
+    overflow: hidden;
+    }
+    
+    .btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    border-color: rgb(31, 30, 30);
+    cursor: pointer;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    font-size: 1.1em;
+    }
+    
+    .btn:active{
+    border-color: rgb(31, 30, 30);   
+    background-color: white;
+    color: rgb(31, 30, 30);
+    }
+    
+    #a{
+    width: 205px;
+    }
